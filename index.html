@@ -15,7 +15,11 @@
       display: flex;
       justify-content: center;
       align-items: center;
-      gap: 50px;
+    }
+
+    .howPlay {
+      text-align: center;
+      line-height: 2;
     }
 
     /* Game Styles */
@@ -130,9 +134,29 @@
       <canvas></canvas>
     </main>
 
-    <nav class="menu">
+    <div class="howPlay">
+      We can move the player 1 pressing:
+      
+      <p>W, A, D</p>
+
+      and attack with:
+
+      <p>SPACEBAR</p>
+
+      <hr>
+
+      We can move the player 2 pressing:
+      <p>ARROW UP, ARROW LEFT and ARROW RIGHT</p>
+
+      and attack with:
+
+      ARROW DOWN
+      
+      <nav>
         <button class="restart" onclick="location.reload()">Play</button>
-    </nav>
+      </nav>
+    </div>
+
   </div>
 
   <script src="js/utils.js"></script>
